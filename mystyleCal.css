@@ -1,0 +1,69 @@
+ h1{
+   padding: 5px;
+   color: black;
+   text-align: center;
+   background-color: #B7CD1C;
+   border: 3px solid #EBF68D;
+   width: 100%;
+   height: 100px;
+   box-sizing: border-box;
+   border-radius: 10px;
+}
+
+body{
+   background-color: #ABE3FF;
+   font-family: Verdana, sans-serif;
+}
+
+ p {align-content: center}
+
+table {
+  border: 10px solid #EBF68D;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+tr, td {
+  border: 2px solid rgba(0, 0, 0, 0.48);
+  font-size: 20px;
+  font-family: Verdana, sans-serif;
+  height: 70px;
+  width: 100px;
+  color: #FF3DA1;
+  border-radius: 4px;
+}
+
+.monthView {
+    padding: 25px 25px;
+    width: 90%;
+    background: #1abc9c;
+    text-align: center;
+}
+
+/* Previous button inside month header */
+.monthView .prevMonth {
+    float: left;
+    padding-top: 10px;
+}
+
+/* Next button */
+.monthView .nextMonth {
+    float: right;
+    padding-top: 10px;
+}
+
+.monthView .weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: black;
+}
+
+form{
+  text-align: center;
+}
+
+label{
+  font-weight: bold;
+  text-align: left;
+}
