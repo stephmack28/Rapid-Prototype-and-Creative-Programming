@@ -1,0 +1,32 @@
+/*need to center gif and move style for div to css sheet
+
+committing not working, took screenshot of error
+
+duck giving incorrect url upon searching*/
+body {
+    background-color: #99ccff;
+}
+div{
+  display: block;
+  margin: auto;
+  align: center;
+  overflow: scroll;
+  width:350px;
+  height:315px;
+  padding: 5px;
+}
+img{
+  display:block;
+  margin:auto;
+  align:middle;
+}
+h1{
+    font: bold 50px Century Gothic, sans-serif;
+    text-align: center;
+}
+p{
+    font: italic 12px Century Gothic, sans-serif;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
